@@ -14,13 +14,13 @@ https://www.kaggle.com/new-york-city/nypd-motor-vehicle-collisions?select=nypd-m
 
 ## Softwares used
 
-1.python 3
-2.Jupyter Notebook
-3.Amazon Web Service credentials with full access
-4.Amazon S3 bucket
-5.AWS Glue
-6.AWS Redshift
-7.AWS Quicksight
-8.Route 53
-9.AWS cloudfront
-10.Talent
+1. python 3
+2. Jupyter Notebook
+3. Amazon Web Service credentials with full access
+4. Amazon S3 bucket
+5. AWS Glue
+6. AWS Redshift
+7. AWS Quicksight
+8. Route 53
+9. AWS cloudfront
+10. Talent
