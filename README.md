@@ -16,7 +16,7 @@ https://www.kaggle.com/new-york-city/nypd-motor-vehicle-collisions?select=nypd-m
 
 1. python 3
 2. Jupyter Notebook
-3. Amazon Web Service credentials with full access
+3. PLotly Chart Studio
 4. Amazon S3 bucket
 5. AWS Glue
 6. AWS Redshift
