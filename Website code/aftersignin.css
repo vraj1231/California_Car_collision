@@ -1,0 +1,216 @@
+.container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-right: 50px;
+}
+
+header {
+    background-color: rgb(88, 30, 64);
+}
+
+header h1 {
+    line-height: 45px;
+    font-size: 4rem;
+    margin: 0;
+    display: inline;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, fantasy;
+    text-decoration: green;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.h1 {
+    float: left;
+    position: relative;
+    font-size: 2rem;
+}
+
+.logo {
+    border-radius: 10%;
+    float: left;
+    width: 6%;
+    height: 5%;
+    ;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 150px;
+    padding-top: 23px;
+    padding-right: 23px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, fantasy;
+    text-decoration: green;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, fantasy;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.ul1 {
+    float: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.li1 {
+    display: inline-block;
+    position: center;
+    margin-left: 300px;
+    padding-top: 23px;
+    padding-right: 23px;
+}
+
+div a {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, fantasy;
+    text-decoration: green;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+div a:hover {
+    color: red;
+}
+
+body {
+    /* margin: 0; */
+    font: inherit;
+    /*logoproject.png*/
+    background-image: url("https://wallpaper.dog/large/10921453.jpg");
+    position: relative;
+    /* top: 75%;
+    left: 50%;
+    height: 100%; */
+    /* background-repeat: repeat; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#smallContainer {
+    float: left;
+    display: block;
+}
+
+#linkFinder {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    display: block;
+    display: block-inline;
+    text-decoration: none;
+}
+
+#linkMedicine {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    display: block;
+    display: block-inline;
+    text-decoration: none;
+}
+
+#linkSymptom {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    width: 400;
+    text-align: center;
+    display: block;
+    display: block-inline;
+    text-decoration: none;
+}
+
+h6 {
+    line-height: 45px;
+    margin: 0;
+    display: inline;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, fantasy;
+    text-decoration: green;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 35%;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, fantasy;
+    text-decoration: green;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 16px;
+    margin: 0;
+    display: inline;
+    /* position: relative; */
+}
+
+.column {
+    float: left;
+    width: 48.5%;
+    padding: 5px;
+}
+
+
+/* Clearfix (clear floats) */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column1 {
+    float: left;
+    width: 49.5%;
+    padding: 5px
+}
+
+
+/* Clearfix (clear floats) */
+
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+}

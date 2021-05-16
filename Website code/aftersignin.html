@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CRV analytics</title>
+    <link href="https://new-bucket-hosting.s3-us-west-1.amazonaws.com/aftersignin.css" media="all" rel="stylesheet" type="text/css">
+
+    <style>
+        iframe {
+            overflow: hidden;
+            border-radius: 8px;
+        }
+        
+        img {
+            border-radius: 8px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1> CRV analytics</h1>
+            <!-- <img src="logoproject.png" alt=logo class="logo"> -->
+            <nav>
+                <ul>
+                    <li><a href="aftersignin.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <br>
+    <hr>
+    <div id="help">
+        <h6> USA Car collision visualization</h6>
+    </div>
+    <hr>
+
+    <div class="row1">
+        <div class="column1">
+            <img src="allstates.png" alt="Snow" width="720px " height=" 400px ">
+        </div>
+        <div class="column1">
+
+
+            <iframe width="720px" height="400px" frameborder="0" scrolling="no" src="//plotly.com/~vraj31/1.embed" object-fit="cover" position="relative"></iframe>
+        </div>
+    </div>
+    <!-- <hr>
+    <div id="help">
+        <h6> California Car collision visualization</h6>
+        <p>This data comes from the California Highway Patrol and covers collisions from January 1st, 2001 until mid-October, 2020 </p>
+
+    </div> -->
+    <hr>
+    <div id="help">
+        <h6> California Highway visualization </h6>
+    </div>
+    <hr>
+    <div class="row1">
+        <div class="column1">
+            <br>
+            <p> Number of truck collisions is more by the side of highways compared to motorcycle collisions. There are around 147 North-South bound highways and 142 East-West bound highways. In general there are more accidents in north and south bound highways
+                compared to east and west bound. </p>
+            <br>
+            <br>
+            <br>
+            <img src="highway_road.png" width="720px " height=" 400px " />
+        </div>
+        <div class="column1">
+            <br>
+            <p> Surprisingly from the data, the movement of the person at fault preceding collision shows that most accidents have occurred when the person was proceeding straight. Next highest are the “Making left turn”, “Changing lanes” and “Ran off road”
+                with little variation in numbers. “Slowing/Stopping”,“Making right turn”,“Entering traffic” and “Making U-turn” are the least movement that cause accident. </p>
+            <br>
+            <img src="movement_preceding.png" width="720px " height="400px " />
+            <br>
+        </div>
+    </div>
+    <div class="row1">
+        <div class="column1">
+            <br>
+            <p> </p>
+            <br>
+            <iframe width="720" height="400" frameborder="0" scrolling="no" src="//plotly.com/~vraj31/18.embed"></iframe>
+        </div>
+        <div class="column1">
+            <br>
+            <p> San jose road-condition-map </p>
+            <br>
+            <iframe width="720px" height="400" frameborder="0" scrolling="no" src="//plotly.com/~vraj31/15.embed"></iframe>
+        </div>
+    </div>
+
+    <hr>
+    <hr>
+    <div id="help">
+        <h6> killed-victims California visualization </h6>
+    </div>
+    <hr>
+    <div class="row1">
+        <div class="column1">
+            <br>
+            <p> Number of killed victims are more on a clear day than any other extreme condition like “Snow”, “Rain” “Fog” or “Wind”. It can accounted that number of vehicles on road during extreme weather conditions are less and also people are more careful
+                while driving which leads to lesser accidents. Also timely closure of roads and warning the people about weather conditions helps a lot. </p>
+            <br>
+            <img src="killed_victim_weather.png" width="720px " height="400px" />
+        </div>
+        <div class="column1">
+            <br>
+            <p>Number of killed victims in each of the caltrain county shows LA has the most number of deaths which is around 14% of the total. This is followed by San Bernardino, San Diego, Riverside, Kern , Orange, and Fresno Countys. The above countys
+                amount to 50% of the total deaths due to accidents.</p>
+            <br>
+            <img src="killed_victim_part_2.png" width="720px " height=" 400px " />
+        </div>
+    </div>
+    <hr>
+    <div class="row1">
+        <div class="column1">
+            <br>
+            <p>The killed victims in California due to road accidents are between 2.7k to 4.2k in the years 2001 to 2019. It was highest in the year 2005 and lowest in year 2010.</p>
+            <br>
+            <img src="year_vicitim.png" width="720px " height=" 400px " />
+
+        </div>
+        <div class="column1">
+            <br>
+            <p>Most of the collision have led to property damage in California which accounts to around 5 million. Fatal and severe injuries account to less than a million from the total data. Other injuries and pain come upto 3 million cases. Property damages
+            </p>
+            <br>
+            <img src="collision_severity.png" width="720px " height=" 400px " />
+        </div>
+    </div>
+    <hr>
+
+    <hr>
+    <div id="help">
+        <h6> Further Analysis on California data</h6>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="column">
+            <br>
+            <p>It appears most of the fatal accidents have occurred during daylight, this is most likely due to the fact most trips are made during day light hours.</p>
+            <br>
+            <img src="daytype_alcohol_involved.png" alt="Snow" style="width:100%" height="400">
+        </div>
+        <div class="column">
+            <br>
+            <p>For the vast majority of fatal collisions, the driver is at fault.Pedestrians are at fault at a not insignificant 14% of instances. Cyclists are at fault 3% of the time.</p>
+            <br>
+            <iframe width="720px" height="400px" frameborder="0" scrolling="no" src="//plotly.com/~vraj31/4.embed"></iframe>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="column">
+            <br>
+            <p> Gender analysis for collision</p>
+            <br>
+            <iframe width="720px" height="400px" frameborder="0" scrolling="no" src="//plotly.com/~vraj31/6.embed"></iframe>
+        </div>
+        <div class="column">
+            <br>
+            <p> Age distribution </p>
+            <br>
+            <iframe width="720px" height="400px" frameborder="0" scrolling="no" src="//plotly.com/~vraj31/8.embed"></iframe>
+        </div>
+    </div>
+    <hr>
+</body>
+
+</html>
