@@ -23,4 +23,4 @@ https://www.kaggle.com/new-york-city/nypd-motor-vehicle-collisions?select=nypd-m
 7. AWS Quicksight
 8. Route 53
 9. AWS cloudfront
-10. Talent
+10. Talend
