@@ -7,10 +7,7 @@ https://www.kaggle.com/sobhanmoosavi/us-accidents
 https://zenodo.org/record/4284843#.YJ5NHC0RpN2
 1.Data from California Highway Patrol
 2. Covers data from Jan 1, 2001to Oct 2020
-https://www.kaggle.com/new-york-city/nypd-motor-vehicle-collisions?select=nypd-motor-vehicle-collisions.csv
-1. Contains records of all police reported motor vehicle collisions in NYC 
-2. Dataset hosted by City of New York. 
-3. https://www.kaggle.com/gauravmehta13/nyc-traffic-accidents
+
 
 ## Softwares used
 
